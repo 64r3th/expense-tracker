@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <h2>
+    <h2 className='HEADER'>
       Expense Tracker
     </h2>
   )

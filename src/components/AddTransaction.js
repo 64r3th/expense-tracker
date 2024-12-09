@@ -29,10 +29,10 @@ function AddTransaction() {
   }
 
   return (
-    <div>
+    <div className='ADDTRANSACTION'>
       <h3>Add New Transaction</h3>
       <form>
-        <div className='form-control'>
+        <div>
           <label htmlFor='text'>Text</label>
           <input 
             type='text'
@@ -44,7 +44,7 @@ function AddTransaction() {
             autoFocus
           />
         </div>
-        <div className='form-control'>
+        <div>
           <label htmlFor='amount'>Amount</label>
           <input 
             type='number' 

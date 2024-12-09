@@ -1,5 +1,6 @@
 export default (state, action) => {
   switch(action.type) {
+    case 'LOAD_FROM_LOCAL_STORAGE': return action.payload;
     case 'DELETE_TRANSACTION':
       return {
         ...state,
@@ -10,7 +11,6 @@ export default (state, action) => {
         ...state,
         transactions: [action.payload, ...state.transactions]
       }
-    default:
-      return state;
+    default: return state;
   }
 }

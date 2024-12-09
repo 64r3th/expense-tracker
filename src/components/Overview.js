@@ -18,7 +18,7 @@ function Overview() {
 
 
   return (
-    <div className='inc-exp-container'>
+    <div className='OVERVIEW'>
       <div>
         <h4>Income</h4>
         <p className='money pos'>{income}</p>
